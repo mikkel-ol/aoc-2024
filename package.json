@@ -6,16 +6,20 @@
   "license": "ISC",
   "description": "AoC solutions 2024",
   "scripts": {
-    "start": "node --experimental-strip-types main.ts"
+    "build": "tsc --outDir build",
+    "start": "npx tsx main.ts",
+    "watch": "nodemon -e npm run start"
   },
   "engines": {
     "node": ">=22.6.0"
   },
   "dependencies": {
+    "chalk": "^5.3.0",
     "lodash": "^4.17.21",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.13"
+    "@types/lodash": "^4.17.13",
+    "nodemon": "^3.1.7"
   }
 }
