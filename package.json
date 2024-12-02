@@ -1,11 +1,21 @@
 {
   "name": "aoc-2024",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "main": "main.ts",
+  "author": "mikkel-ol",
   "license": "ISC",
-  "description": ""
+  "description": "AoC solutions 2024",
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13"
+  }
 }
