@@ -18,6 +18,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["main.ts", "./calendar/**/*"],
+  "include": ["main.ts", "./tasks/**/*"],
   "exclude": ["node_modules", "dist"]
 }
